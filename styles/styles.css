@@ -516,6 +516,10 @@ body {
 
 /*-------END INDUSTRIES BLOCK -------*/
 
+.find-vacancies {
+  margin-top: 80px;
+}
+
 .find-vacancies-wrap {
   display: flex;
   height: 370px;
@@ -523,6 +527,7 @@ body {
   padding: 40px;
   justify-content: space-between;
   margin-bottom: 40px;
+  margin-top: 20px;
 }
 
 .find-vacancies-right-block {
@@ -531,10 +536,12 @@ body {
 }
 
 .find-vacancies-desc {
+  display: block;
   font-weight: 400;
   font-size: 18px;
   line-height: 27px;
   color: #ffffff;
+  padding-bottom: 20px;
 }
 
 .find-vacancy-form {
@@ -550,7 +557,7 @@ body {
   background-image: url("../images/find-vacancy.jpg");
   background-repeat: no-repeat;
   width: 450px;
-  height: 240px;
+  height: 100%;
   background-size: cover;
   border-radius: 10px;
 }
