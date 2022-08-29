@@ -69,6 +69,7 @@
 }
 .icon-arrow-right:before {
   content: "\e908";
+  color: #272727;
 }
 .icon-desktop .path1:before {
   content: "\e909";
