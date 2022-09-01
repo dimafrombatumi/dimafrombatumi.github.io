@@ -497,6 +497,9 @@ body {
   border-radius: 10px;
   margin-bottom: 20px;
 }
+.industries-block:hover {
+  cursor: pointer;
+}
 
 .industries-block:hover .industries-block-title {
   color: #4e3487;
