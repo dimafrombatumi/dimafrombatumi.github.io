@@ -650,13 +650,17 @@ body {
 }
 
 .vacancy-block {
-  width: 48%;
+  width: 49%;
   height: 232px;
   padding: 40px;
   margin-right: 20px;
   margin-bottom: 20px;
   box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
+}
+
+.vacancy-block:nth-child(even) {
+  margin-right: 0;
 }
 .vacancy-title {
   font-weight: 700;
@@ -763,3 +767,53 @@ body {
   line-height: 31px;
   color: #ffffff;
 }
+/*------- END Achivements BLOCK -------*/
+
+/*------- PARTNERS BLOCK -------*/
+
+.partners-wrap {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.partner-block {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background: #f6f6f6;
+  box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 40px;
+  margin-right: 20px;
+}
+
+.partner-block:nth-child(even) {
+  margin-right: 0;
+}
+
+.partner-logo-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.partner-logo {
+  margin-right: 30px;
+}
+
+.partner-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #272727;
+}
+
+.partner-desc-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #272727;
+}
+
+/*------- END PARTNERS BLOCK -------*/
