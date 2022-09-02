@@ -132,7 +132,7 @@ body {
   text-decoration: none;
   display: block;
   text-align: left;
-  padding: 10px 0;
+  margin: 10px 0;
 }
 
 .dropdown-content a:hover {
@@ -193,6 +193,10 @@ body {
 .menu-link {
   margin-right: 30px;
   font-size: 16px;
+}
+
+.icon-menu-arr {
+  font-size: 8px;
 }
 
 .menu-link :last-child {
@@ -774,20 +778,39 @@ body {
 
 /*------- PARTNERS BLOCK -------*/
 
-.partners-wrap {
-  display: flex;
-  flex-wrap: nowrap;
+.partners-wrap-slider {
+  overflow: hidden;
 }
 
 .partner-block {
-  display: flex;
-  flex-direction: column;
-  width: 50%;
   background: #f6f6f6;
   box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   padding: 40px;
   margin-right: 20px;
+  flex: 0 0 50%;
+  max-width: 50%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.slider__control {
+  position: absolute;
+  top: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 50px;
+  color: #fff;
+  text-align: center;
+  background: rgb(0 0 0 / 20%);
+  border: none;
+  transform: translateY(-50%);
+  cursor: pointer;
 }
 
 .partner-block:nth-child(even) {

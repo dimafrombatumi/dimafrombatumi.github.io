@@ -10,9 +10,10 @@
     <link href="styles/reset.css" rel="stylesheet" type="text/css">
     <link href="styles/mobile-nav-button.css" rel="stylesheet" type="text/css">
     <link href="styles/mobile-nav.css" rel="stylesheet" type="text/css">
+    <link href="styles/slider.css" rel="stylesheet" type="text/css">
 
     <link href="styles/media.css" rel="stylesheet" type="text/css">
-
+    <script src="./js/slider.js"></script>
 </head>
 
 <body>
@@ -40,8 +41,9 @@
                                 <div class="menu-col">
                                     <nav class="menu-body">
                                         <ul class="menu-list">
-                                            <div class="dropdown"><button class="dropbtn">О компании
-                                                    <i class="fa fa-caret-down"></i>
+                                            <div class="dropdown"><button class="dropbtn">
+                                                    О компании
+                                                    <i class="icon-menu-arr"></i>
                                                 </button>
                                                 <div class="dropdown-content">
                                                     <a href="#">Наша команда</a>
@@ -420,32 +422,54 @@
         <div class="container-small">
             <p class="partners-title-h1 h1-title">Наши партнеры</p>
 
-            <div class="partners-wrap">
-                <div class="partner-block">
-                    <div class="partner-logo-title">
-                        <img src="./images/par1.jpg" alt="" class="partner-logo">
-                        <p class="partner-title">EF Education First</p>
+            <div class="slider" data-slider="itc-slider" data-loop="false">
+                <div class="partners-wrap-slider">
+                    <div class="partner-blocks">
+                        <div class="partner-block">
+                            <div class="partner-logo-title">
+                                <img src="./images/par1.jpg" alt="" class="partner-logo">
+                                <p class="partner-title">EF Education First</p>
+                            </div>
+                            <div class="partner-desc-block">
+                                <p class="partner-desc-text">
+                                    Компания предлагает языковые программы для всех возрастов от лагерей для школьников,
+                                    курсов
+                                    и поездок для взрослых по всему миру до долгосрочных курсов за рубежом.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="partner-block">
+                            <div class="partner-logo-title">
+                                <img src="./images/par1.jpg" alt="" class="partner-logo">
+                                <p class="partner-title">EF Education First</p>
+                            </div>
+                            <div class="partner-desc-block">
+                                <p class="partner-desc-text">
+                                    Компания предлагает языковые программы для всех возрастов от лагерей для школьников,
+                                    курсов
+                                    и поездок для взрослых по всему миру до долгосрочных курсов за рубежом.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="partner-block">
+                            <div class="partner-logo-title">
+                                <img src="./images/par1.jpg" alt="" class="partner-logo">
+                                <p class="partner-title">EF Education First</p>
+                            </div>
+                            <div class="partner-desc-block">
+                                <p class="partner-desc-text">
+                                    Компания предлагает языковые программы для всех возрастов от лагерей для школьников,
+                                    курсов
+                                    и поездок для взрослых по всему миру до долгосрочных курсов за рубежом.
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="partner-desc-block">
-                        <p class="partner-desc-text">
-                            Компания предлагает языковые программы для всех возрастов от лагерей для школьников, курсов
-                            и поездок для взрослых по всему миру до долгосрочных курсов за рубежом.
-                        </p>
-                    </div>
-                </div>
-                <div class="partner-block">
-                    <div class="partner-logo-title">
-                        <img src="./images/par1.jpg" alt="" class="partner-logo">
-                        <p class="partner-title">EF Education First</p>
-                    </div>
-                    <div class="partner-desc-block">
-                        <p class="partner-desc-text">
-                            Компания предлагает языковые программы для всех возрастов от лагерей для школьников, курсов
-                            и поездок для взрослых по всему миру до долгосрочных курсов за рубежом.
-                        </p>
-                    </div>
-                </div>
 
+
+                </div>
+                <button class="slider__control" data-slide="prev"></button>
+                <button class="slider__control" data-slide="next"></button>
             </div>
         </div>
     </section>
