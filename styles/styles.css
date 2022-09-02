@@ -33,7 +33,6 @@ body {
   /* CONTENT PAGE CONTAINER*/
   max-width: 1170px;
   margin: 0 auto;
-  padding: 0 80px;
 }
 
 .white-btn {
@@ -47,6 +46,22 @@ body {
   justify-content: center;
   align-items: center;
   color: #4e3487;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.violet-btn {
+  padding: 15px 45px;
+  gap: 10px;
+  width: 237px;
+  height: 52px;
+  background: #4e3487 !important;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
@@ -70,6 +85,61 @@ body {
 .left-col-head {
   display: flex;
   align-items: center;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: #272727;
+  background-color: inherit;
+  font-family: inherit;
+  margin-right: 15px;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  color: #4e3487;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px 25px 20px 20px;
+  background: #f6f6f6;
+  box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.dropdown-content a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #272727;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  padding: 10px 0;
+}
+
+.dropdown-content a:hover {
+  color: #4e3487;
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
 }
 
 .wrap-menu-address {
@@ -225,20 +295,6 @@ body {
   height: 100%;
   width: 100%;
   object-fit: cover;
-}
-
-@media (max-width: 991px) {
-  .home {
-    padding: 40px 0;
-    min-height: unset;
-  }
-  .slider-heading {
-    font-size: 45px;
-    line-height: 1.2;
-  }
-  .slider-text + * {
-    margin-top: 30px;
-  }
 }
 
 .button-white {
@@ -584,3 +640,126 @@ body {
 }
 
 /*-------END VACANCIES BLOCK -------*/
+/*-------NEW VACANCIES BLOCK -------*/
+
+.new-vacancies-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.vacancy-block {
+  width: 48%;
+  height: 232px;
+  padding: 40px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.vacancy-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #272727;
+}
+
+.vacancy-block-no-mrg {
+  margin-right: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.violet-btn {
+  padding: 15px 45px;
+  gap: 10px;
+  width: 237px;
+  height: 52px;
+  background: #4e3487 !important;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.all-vacancies-btn-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vacancy-block-btm-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.city-salary {
+  display: flex;
+  flex-direction: column;
+}
+
+.vacancy-location,
+.vacancy-salary {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #272727;
+  margin-bottom: 15px;
+}
+
+/*------- END NEW VACANCIES BLOCK -------*/
+/*------- Achivements BLOCK -------*/
+
+.achievements {
+  margin-bottom: 80px;
+  margin-top: 80px;
+}
+
+.achivements-wrap {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(79.84deg, #2e85aa -6.98%, #4e3487 105.43%);
+  box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  height: 511px;
+  width: 100%;
+  padding: 40px;
+}
+.achivements-title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 53px;
+  color: #ffffff;
+  margin-bottom: 26px;
+}
+
+.achivements-steps-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.achivements-step {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 21px;
+  width: 31.4%;
+}
+.achiv-step-title {
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 98px;
+  color: #ffffff;
+}
+.achiv-step-desc {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  color: #ffffff;
+}

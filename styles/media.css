@@ -63,6 +63,20 @@
   }
 }
 
+@media (max-width: 991px) {
+  .home {
+    padding: 40px 0;
+    min-height: unset;
+  }
+  .slider-heading {
+    font-size: 45px;
+    line-height: 1.2;
+  }
+  .slider-text + * {
+    margin-top: 30px;
+  }
+}
+
 @media (max-width: 992px) {
   .container-header {
     max-width: 100%;
@@ -161,7 +175,7 @@
     justify-content: space-between;
     width: 48%;
     margin-right: 10px;
-}
+  }
 
   .industries-blocks-col {
     width: 100%;
@@ -174,6 +188,10 @@
 
   .small-icon {
     font-size: 40px;
+  }
+
+  .form-field-white {
+    margin-right: 10px;
   }
 }
 
@@ -196,7 +214,6 @@
   .activities-wrapper {
     flex-direction: column;
   }
-
 
   .activities-left-col {
     margin-right: 0;
@@ -239,5 +256,20 @@
   .find-spec-step {
     width: 100%;
     margin-right: 0;
+  }
+
+  .spec-find-form-wrap {
+    height: auto;
+  }
+  .find-spec-form {
+    flex-direction: column;
+  }
+  .form-field-white {
+    margin-right: 0;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  .white-btn {
+    width: 100%;
   }
 }
