@@ -77,15 +77,41 @@ body {
 .header-row {
   display: flex;
   height: 127px;
-  align-items: center;
   padding-left: 0;
   padding-right: 0;
-  justify-content: space-between;
+  align-items: center;
 }
 
-.left-col-head {
+.logo-col {
+  margin-right: 60px;
+}
+
+.header-right-col {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+}
+
+.header-top-col {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.social-and-btn-wrap {
+  display: flex;
+  position: absolute;
+  right: 0;
+}
+
+.header-bottom-col {
+  display: flex;
+  position: relative;
+}
+
+.lang-links {
+  position: absolute;
+  right: 0;
 }
 
 .dropdown {
@@ -152,15 +178,16 @@ body {
 .adress-socials {
   display: flex;
   justify-content: space-between;
-  flex-direction: column;
 }
 
 .socials-col {
   display: flex;
+  align-items: center;
+  margin-right: 60px;
 }
 
 .social-item {
-  font-size: x-large;
+  font-size: 22px;
   padding-right: 10px;
 }
 
@@ -203,15 +230,14 @@ body {
   margin-right: 0;
 }
 
-.right-col {
+.bottom-col {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: baseline;
 }
 
 .last-col {
   display: flex;
-  flex-direction: column;
   align-items: flex-end;
   padding-left: 40px;
 }
@@ -398,6 +424,7 @@ body {
   margin-bottom: 80px;
   flex-wrap: wrap;
   justify-content: space-between;
+  gap: 20px;
 }
 
 .purple-step {
@@ -420,11 +447,10 @@ body {
 .find-spec-step {
   padding: 200px 80px 40px 40px;
   background: #f6f6f6;
-  box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 80px rgb(0 0 0 / 20%);
   border-radius: 10px;
-  width: 32%;
+  width: calc(33.33% - 15px);
   box-sizing: border-box;
-  margin-bottom: 20px;
   position: relative;
   overflow: hidden;
 }
@@ -536,10 +562,11 @@ body {
 
 .industries-wrap {
   display: flex;
+  min-height: 1020px;
+  gap: 50px;
 }
 .industries-title-col {
-  width: 50%;
-  margin-right: 50px;
+  width: calc(50% - 25px);
 }
 
 .industries-blocks-col {
@@ -610,11 +637,11 @@ body {
   justify-content: space-between;
   margin-bottom: 80px;
   margin-top: 20px;
+  gap: 80px;
 }
 
 .find-vacancies-right-block {
-  width: 50%;
-  margin-right: 40px;
+  width: calc(50%-40px);
 }
 
 .find-vacancies-desc {
@@ -653,14 +680,12 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 30px;
+  gap: 20px;
 }
 
 .vacancy-block {
-  width: 49%;
-  height: 232px;
+  width: calc(50% - 10px);
   padding: 40px;
-  margin-right: 20px;
-  margin-bottom: 20px;
   box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
 }
@@ -782,6 +807,7 @@ body {
 }
 .partner-blocks {
   display: flex;
+  gap: 20px;
 }
 
 .partner-block {
@@ -789,10 +815,7 @@ body {
   box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   padding: 40px;
-  margin-right: 20px;
-  flex: 0 0 50%;
-  max-width: 50%;
-  height: 250px;
+  width: calc(50%-10px);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -838,6 +861,7 @@ body {
 
 .reviews-blocks {
   display: flex;
+  gap: 20px;
 }
 
 .reviews-block {
@@ -845,9 +869,7 @@ body {
   box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   padding: 40px;
-  margin-right: 20px;
-  flex: 0 0 32.8%;
-  max-width: 32.8%;
+  width: calc(33.33% - 10px);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -901,15 +923,12 @@ body {
 .articles-wrap {
   display: flex;
   margin-bottom: 30px;
+  gap: 20px;
 }
 
 .article-block {
-  flex: 0 0 50%;
-  max-width: 50%;
-  height: 250px;
+  width: calc(50% - 10px);
   padding: 40px;
-  margin-right: 20px;
-  margin-bottom: 20px;
   box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   flex-direction: column;
@@ -965,13 +984,12 @@ body {
   background: #272727;
   box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
-  padding:40px 80px;
+  padding: 40px 80px;
 }
 
-.footer-top-wrap{
+.footer-top-wrap {
   display: flex;
   justify-content: space-between;
-
 }
 
 .footer-menu-wrap {
@@ -1005,7 +1023,7 @@ body {
   margin-top: 50px;
 }
 
-.footer-btm-left{
+.footer-btm-left {
   display: flex;
   justify-content: space-between;
 }
@@ -1018,14 +1036,12 @@ body {
   margin-right: 30px;
 }
 
-.footer-btn{
+.footer-btn {
   margin-bottom: 20px;
 }
 
 .footer-social-item {
- 
   font-size: 32px;
   color: white;
   margin-right: 19px;
-
 }

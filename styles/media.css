@@ -32,6 +32,9 @@
 }
 
 @media (max-width: 1024px) {
+  .container {
+    padding: 0 12px;
+  }
   .container-header {
     max-width: 100%;
     justify-content: center;
@@ -46,6 +49,14 @@
     font-size: 14px;
   }
 
+  .social-item {
+    font-size: 19px;
+  }
+
+  .last-col {
+    padding-left: 10px;
+  }
+
   .lang-link {
     font-size: 15px;
   }
@@ -55,7 +66,7 @@
   }
 
   .request-button a {
-    width: 212px;
+    width: 200px;
     font-size: 16px;
   }
   .adress-item {
@@ -271,5 +282,9 @@
   }
   .white-btn {
     width: 100%;
+  }
+
+  .adress-item {
+    margin-right: 15px;
   }
 }
