@@ -4,6 +4,7 @@
     justify-content: center;
   }
 
+
   .logo-img {
     width: 80px;
     height: 80px;
@@ -16,6 +17,9 @@
 }
 
 @media (max-width: 1139px) {
+
+
+
   .container-header {
     max-width: 100%;
     justify-content: center;
@@ -95,7 +99,7 @@
   }
 
   .container-small {
-    padding: 0 10px;
+    padding: 0 20px;
   }
 
   .header-row {
@@ -173,7 +177,7 @@
   }
 
   .industries-wrap {
-    flex-direction: column;
+    
   }
 
   .industries-title-col {
@@ -223,7 +227,7 @@
   }
 
   .activities-wrapper {
-    flex-direction: column;
+
   }
 
   .activities-left-col {
