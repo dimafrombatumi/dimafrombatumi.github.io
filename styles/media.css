@@ -4,7 +4,6 @@
     justify-content: center;
   }
 
-
   .logo-img {
     width: 80px;
     height: 80px;
@@ -17,9 +16,6 @@
 }
 
 @media (max-width: 1139px) {
-
-
-
   .container-header {
     max-width: 100%;
     justify-content: center;
@@ -75,6 +71,13 @@
   }
   .adress-item {
     margin-right: 40px;
+  }
+
+  .find-vacancies-right-image {
+    width: calc(50% - 20px);
+  }
+  .find-vacancies-wrap {
+    gap: 40px;
   }
 }
 
@@ -155,16 +158,18 @@
   }
 
   .find-spec-step {
-    width: 48%;
-    margin-right: 10px;
+    width: calc(50% - 10px);
+  }
+
+  .find-vacancies-right-image {
+    width: calc(50% - 20px);
+  }
+  .find-vacancies-wrap {
+    gap: 40px;
   }
 }
 
 @media (max-width: 768px) {
-  .wrap-menu-address {
-    flex-grow: 2;
-  }
-
   .adress-col {
     margin-bottom: 0;
   }
@@ -176,10 +181,13 @@
     display: none;
   }
 
-  .industries-wrap {
-    
+  .h3-title {
+    font-size: 28px;
   }
 
+  .left-list {
+    margin-right: 40px;
+  }
   .industries-title-col {
     width: 100%;
     margin-right: 0;
@@ -208,6 +216,38 @@
   .form-field-white {
     margin-right: 10px;
   }
+
+  .find-vacancies-right-image {
+    width: calc(50% - 20px);
+  }
+  .find-vacancies-wrap {
+    gap: 40px;
+  }
+
+  .partner-title {
+    font-size: 28px;
+  }
+
+  .achiv-step-title {
+    font-size: 60px;
+  }
+
+  .achivements-step {
+    width: calc(33.33% - 15px);
+  }
+  .article-block-btm-wrap {
+    justify-content: flex-end;
+  }
+  .article-title {
+    font-size: 28px;
+  }
+
+  .article-desc-wrap {
+    display: none;
+  }
+  .article-block {
+    padding: 20px;
+  }
 }
 
 @media (max-width: 620px) {
@@ -227,7 +267,8 @@
   }
 
   .activities-wrapper {
-
+    flex-direction: column;
+    gap: 60px;
   }
 
   .activities-left-col {
@@ -290,5 +331,12 @@
 
   .adress-item {
     margin-right: 15px;
+  }
+  .spec-find-h1 {
+    font-size: 32px;
+  }
+
+  .vacancy-title {
+    font-size: 28px;
   }
 }
