@@ -79,6 +79,14 @@
   .find-vacancies-wrap {
     gap: 40px;
   }
+
+  .last-reviews-block {
+    display: none;
+  }
+
+  .reviews-block {
+    width: calc(50% - 20px);
+  }
 }
 
 @media (max-width: 991px) {
@@ -248,6 +256,48 @@
   .article-block {
     padding: 20px;
   }
+
+  .reviews-blocks {
+    flex-wrap: wrap;
+  }
+
+  .reviews-block {
+    display: none;
+  }
+
+  .reviews-block:first-child {
+    display: flex;
+    width: 100%;
+  }
+
+  .footer-top-wrap {
+    flex-direction: column;
+  }
+
+  .footer-btm-left {
+    flex-direction: column;
+    gap: 10px 0;
+  }
+
+  .footer-socials-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .footer-social-item {
+    font-size: 22px;
+    margin-right: 20px;
+  }
+
+  .footer-social-item:last-child {
+    margin-right: 0;
+  }
+
+  .footer-btn{
+    width: auto;
+  }
+ 
 }
 
 @media (max-width: 620px) {
