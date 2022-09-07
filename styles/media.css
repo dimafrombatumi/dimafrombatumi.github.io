@@ -341,7 +341,7 @@
 
   .activities-wrapper {
     flex-direction: column;
-    gap: 60px;
+    gap: 0;
   }
 
   .activities-left-col {
