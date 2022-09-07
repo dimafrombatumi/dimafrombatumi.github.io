@@ -29,6 +29,10 @@
   .wrap-menu-address {
     margin-left: 20px;
   }
+
+  .spec-find-text {
+    width: 60%;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -200,12 +204,8 @@
     width: 100%;
     margin-right: 0;
   }
-
   .industries-block {
-    height: 200px;
-    justify-content: space-between;
-    width: 48%;
-    margin-right: 10px;
+    width: calc(50% - 10px);
   }
 
   .industries-blocks-col {
@@ -217,8 +217,32 @@
     font-size: 20px;
   }
 
+  .partner-blocks {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .partner-block {
+    width: 100%;
+  }
+
+  .partner-block:last-child {
+    display: none;
+  }
+
   .small-icon {
     font-size: 40px;
+  }
+  .spec-find-text {
+    width: 80%;
+  }
+
+  .spec-find-h1 {
+    font-size: 32px;
+  }
+
+  .find-spec-btn {
+    font-size: 15px;
   }
 
   .form-field-white {
@@ -294,10 +318,9 @@
     margin-right: 0;
   }
 
-  .footer-btn{
+  .footer-btn {
     width: auto;
   }
- 
 }
 
 @media (max-width: 620px) {
@@ -338,11 +361,6 @@
   .industries-title-col {
     width: 100%;
     margin-right: 0;
-  }
-
-  .industries-block {
-    height: 200px;
-    justify-content: space-between;
   }
 
   .industries-blocks-col {
@@ -388,5 +406,14 @@
 
   .vacancy-title {
     font-size: 28px;
+  }
+}
+
+@media (max-width: 320px) {
+  .footer-menu-wrap {
+    flex-direction: column;
+  }
+  .spec-find-text {
+    width: 100%;
   }
 }

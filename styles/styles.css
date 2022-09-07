@@ -508,7 +508,7 @@ body {
 }
 
 .spec-find-text {
-  width: 458px;
+  width: 45%;
 }
 .spec-find-h1 {
   font-weight: 700;
@@ -573,6 +573,7 @@ body {
 .industries-blocks-col {
   display: flex;
   flex-direction: column;
+  gap: 20px 0;
 }
 
 .industries-block {
@@ -1002,6 +1003,8 @@ body {
 
 .footer-menu-wrap {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .footer-title {
