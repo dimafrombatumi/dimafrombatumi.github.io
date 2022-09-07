@@ -15,6 +15,11 @@ body {
   color: #272727;
   font-family: "Calibri";
 }
+
+.vacancy-location {
+  font-family: "Calibri" !important;
+}
+
 .wrapper {
   display: flex;
   min-height: 100%;
@@ -585,7 +590,6 @@ body {
   height: 280px;
   min-width: 100%;
   border-radius: 10px;
-  margin-bottom: 20px;
 }
 .industries-block:hover {
   cursor: pointer;
@@ -670,12 +674,13 @@ body {
 }
 
 .find-vacancies-right-image {
-  background-image: url("../images/find-vacancy.jpg");
-  background-repeat: no-repeat;
   width: calc(50% - 80px);
-  height: 100%;
-  background-size: cover;
   border-radius: 10px;
+  overflow: hidden;
+}
+
+.find-vacancies-right-image > img {
+  height: 100%;
 }
 
 /*-------END VACANCIES BLOCK -------*/
@@ -921,6 +926,7 @@ body {
   color: #272727;
   overflow: hidden;
 }
+
 /*------- END REVIEWS BLOCK -------*/
 /*------- ARTICLES BLOCK -------*/
 

@@ -408,25 +408,47 @@
     font-size: 28px;
   }
 
+  .achivements-steps-wrap {
+    width: 100%;
+  }
+  .achivements-step {
+    width: 100%;
+  }
+
   .articles-wrap {
     display: flex;
     margin-bottom: 30px;
     gap: 20px;
     flex-wrap: wrap;
     flex-direction: row;
+  }
+
+  .article-block {
+    width: 100%;
+  }
+
+  .article-block:last-child {
+    display: none;
+  }
+
+  .find-vacancies-wrap {
+    align-items: revert;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  .find-vacancies-right-block {
+    width: 100%;
+  }
+
+  .find-vacancies-right-image {
+    width: 100%;
+    overflow: hidden;
+  }
 }
 
-.article-block {
-  width: 100%;
-
-}
-
-.article-block:last-child{
-  display: none;
-
-}
-
-@media (max-width: 320px) {
+@media (max-width: 390px) {
   .footer-menu-wrap {
     flex-direction: column;
   }
@@ -434,5 +456,21 @@
     width: 100%;
   }
 
-  
+  .new-vacancies-wrap{
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .vacancy-block {
+    width: 100%;
+    padding: 40px;
+    box-shadow: 0px 0px 80px rgb(0 0 0 / 20%);
+    border-radius: 10px;
+}
+
+  .vacancy-title {
+    font-size: 20px;
+  }
+
+
 }
