@@ -601,6 +601,8 @@ body {
 }
 .industries-block:hover {
   cursor: pointer;
+  box-shadow: none;
+  background: #f6f6f6;
 }
 
 .industries-block:hover .industries-block-title {
@@ -608,6 +610,8 @@ body {
 }
 .industries-block:hover .icon-arrow-right::before {
   color: #4e3487;
+  bottom: -5px;
+  position: relative;
 }
 
 .industries-block-title {
@@ -708,6 +712,20 @@ body {
   padding: 40px;
   box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
+}
+
+.vacancy-block:hover {
+  cursor: pointer;
+  box-shadow: none;
+  background: #f6f6f6;
+}
+
+.vacancy-block:hover .vacancy-title {
+  color: #4e3487;
+}
+
+.vacancy-block:hover .block-arrow {
+  color: #4e3487;
 }
 
 .vacancy-block:nth-child(even) {
@@ -953,6 +971,20 @@ body {
   box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   flex-direction: column;
+}
+
+.article-block:hover {
+  cursor: pointer;
+  box-shadow: none;
+  background: #f6f6f6;
+}
+
+.article-block:hover .article-title {
+  color: #4e3487;
+}
+
+.article-block:hover .block-arrow {
+  color: #4e3487;
 }
 
 .article-block:nth-child(even) {
