@@ -434,7 +434,7 @@
   .find-vacancies-wrap {
     align-items: revert;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     height: fit-content;
   }
 
@@ -448,6 +448,42 @@
   }
 }
 
+@media (max-width: 500px) {
+  .vacancy-block {
+    padding: 15px;
+  }
+
+  .vacancy-title {
+    font-size: 20px;
+  }
+  .city-salary > span {
+    font-size: 14px;
+  }
+  .footer-wrap {
+    padding: 40px;
+  }
+
+  .footer-top-wrap {
+    flex-direction: column-reverse;
+  }
+  .footer-socials-btn {
+    margin: 20px 0;
+    align-items: center;
+  }
+  .footer-bottom-wrap {
+    margin-top: 30px;
+    flex-direction: column;
+  }
+
+  .footer-social-item{
+    font-size: 28px;
+  }
+
+  .footer-btm-left {
+    margin-bottom: 20px;
+  }
+}
+
 @media (max-width: 390px) {
   .footer-menu-wrap {
     flex-direction: column;
@@ -456,7 +492,7 @@
     width: 100%;
   }
 
-  .new-vacancies-wrap{
+  .new-vacancies-wrap {
     flex-direction: column;
     width: 100%;
   }
@@ -466,11 +502,12 @@
     padding: 40px;
     box-shadow: 0px 0px 80px rgb(0 0 0 / 20%);
     border-radius: 10px;
-}
+  }
 
   .vacancy-title {
     font-size: 20px;
   }
-
-
+  .achiv-step-desc {
+    font-size: 18px;
+  }
 }
