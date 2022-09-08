@@ -449,12 +449,94 @@
 }
 
 @media (max-width: 500px) {
+  .lists-block-left {
+    flex-direction: column;
+  }
+
+  .activities-list li {
+    font-size: 16px;
+  }
+
+  .h1-title-white {
+    font-size: 28px;
+  }
+
+  .h1-title {
+    font-size: 24px;
+  }
+
+  .step-h1-white {
+    font-size: 24px;
+  }
+
+  .slider {
+    margin-bottom: 60px;
+  }
+
+  .find-spec-step {
+    padding: 40px 80px 40px 40px;
+  }
+
+  .spec-find-h1 {
+    font-size: 24px;
+    line-height: 26.4px;
+  }
+
+  .spec-find-desc {
+    font-size: 16px;
+  }
+  .slider-text > p {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .spec-find-form-wrap {
+    padding: 20px;
+  }
+  .industries-wrap {
+    gap: 20px;
+  }
+
+  .find-vacancies-wrap {
+    padding: 20px;
+    margin-bottom: 60px;
+  }
+
+  .find-spec-wrap {
+    margin-top: 60px;
+  }
+
+  .find-spec-wrap {
+    margin-bottom: 60px;
+  }
+
+  .find-vacancies {
+    margin-top: 60px;
+  }
+
   .vacancy-block {
     padding: 15px;
   }
 
   .vacancy-title {
     font-size: 20px;
+  }
+
+  .achievements {
+    margin-bottom: 60px;
+    margin-top: 60px;
+  }
+
+  .partners {
+    margin-bottom: 60px;
+  }
+
+  .articles {
+    margin-top: 60px;
+  }
+
+  .footer{
+    margin-top: 60px;
   }
   .city-salary > span {
     font-size: 14px;
@@ -475,7 +557,7 @@
     flex-direction: column;
   }
 
-  .footer-social-item{
+  .footer-social-item {
     font-size: 28px;
   }
 

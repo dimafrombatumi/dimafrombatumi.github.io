@@ -293,7 +293,7 @@ body {
 
 .slider-content {
   max-width: 660px;
-  padding: 300px 0;
+  padding: 300px 0 0 0;
 }
 
 .slider-heading {
@@ -360,6 +360,14 @@ body {
   font-size: 48px;
   line-height: 53px;
   color: #272727;
+  margin-bottom: 20px;
+}
+
+.h1-title-white {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 53px;
+  color: #ffffff;
   margin-bottom: 20px;
 }
 .h3-title {
