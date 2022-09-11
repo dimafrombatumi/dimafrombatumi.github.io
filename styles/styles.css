@@ -298,8 +298,8 @@ body {
 
 .slider {
   position: relative;
-  height: 820px;
   margin-bottom: 80px;
+  padding-bottom: 100px;
 }
 
 .slider-content {
@@ -610,7 +610,9 @@ body {
   height: 280px;
   min-width: 100%;
   border-radius: 10px;
+  justify-content: center;
 }
+
 .industries-block:hover {
   cursor: pointer;
   box-shadow: none;

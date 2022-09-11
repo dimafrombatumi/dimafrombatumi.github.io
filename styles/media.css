@@ -450,6 +450,30 @@
 }
 
 @media (max-width: 500px) {
+  .h3-title {
+    font-size: 20px;
+  }
+  .adress-list {
+    flex-direction: column;
+  }
+
+  .violet-btn {
+    font-size: 16px;
+  }
+
+  .vacancy-location,
+  .vacancy-salary {
+    font-size: 16px;
+  }
+
+  .article-title {
+    font-size: 20px;
+    width: 73%;
+  }
+  .adress-item {
+    margin-right: 0;
+    margin-top: 10px;
+  }
   .lists-block-left {
     flex-direction: column;
   }
@@ -574,6 +598,9 @@
 }
 
 @media (max-width: 390px) {
+  .logo-col {
+    margin-right: 36px;
+  }
   .footer-menu-wrap {
     flex-direction: column;
   }
@@ -598,5 +625,11 @@
   }
   .achiv-step-desc {
     font-size: 18px;
+  }
+}
+
+@media (max-width: 280px) {
+  .adress-list {
+    display: none;
   }
 }
