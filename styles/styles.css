@@ -400,6 +400,13 @@ body {
   animation: fadeIn 1s;
 }
 
+.activities-list-item:hover::before {
+  color: #4e3487;
+  cursor: pointer;
+  animation: fadeIn 1s;
+  content: "—";
+}
+
 .activities-col {
   display: flex;
   flex-direction: column;
@@ -424,7 +431,7 @@ body {
 }
 
 .left-list {
-  margin-right: 100px;
+  margin-right: 140px;
 }
 
 .activities-list li {
