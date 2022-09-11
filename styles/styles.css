@@ -11,6 +11,15 @@
   font-display: swap;
 }
 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 body {
   color: #272727;
   font-family: "Calibri";
@@ -138,6 +147,7 @@ body {
 .navbar a:hover,
 .dropdown:hover .dropbtn {
   color: #4e3487;
+  animation: fadeIn 0.7s;
 }
 
 .dropdown-content {
@@ -169,6 +179,7 @@ body {
 
 .dropdown-content a:hover {
   color: #4e3487;
+  animation: fadeIn 1s;
 }
 
 .dropdown:hover .dropdown-content {
@@ -386,6 +397,7 @@ body {
 .activities-list-item:hover {
   color: #4e3487;
   cursor: pointer;
+  animation: fadeIn 1s;
 }
 
 .activities-col {
@@ -607,6 +619,7 @@ body {
 
 .industries-block:hover .industries-block-title {
   color: #4e3487;
+  animation: fadeIn 1s;
 }
 .industries-block:hover .icon-arrow-right::before {
   color: #4e3487;
@@ -722,10 +735,12 @@ body {
 
 .vacancy-block:hover .vacancy-title {
   color: #4e3487;
+  animation: fadeIn 1s;
 }
 
 .vacancy-block:hover .block-arrow {
   color: #4e3487;
+  animation: fadeIn 1s;
 }
 
 .vacancy-block:nth-child(even) {
@@ -981,10 +996,12 @@ body {
 
 .article-block:hover .article-title {
   color: #4e3487;
+  animation: fadeIn 1s;
 }
 
 .article-block:hover .block-arrow {
   color: #4e3487;
+  animation: fadeIn 1s;
 }
 
 .article-block:nth-child(even) {
