@@ -32,7 +32,6 @@ body {
   color: #ffffff;
 }
 
-
 .vacancy-location {
   font-family: "Calibri" !important;
 }
@@ -106,8 +105,8 @@ body {
 }
 
 .violet-btn:hover {
-  padding: 15px 45px; 
-  background: #6b51a5!important;
+  padding: 15px 45px;
+  background: #6b51a5 !important;
   border-radius: 5px;
   display: flex;
   justify-content: center;
@@ -117,7 +116,6 @@ body {
   font-size: 18px;
   line-height: 22px;
 }
-
 
 /*------- HEADER BLOCK -------*/
 
@@ -682,6 +680,14 @@ body {
   background: #f6f6f6;
 }
 
+.block-violet {
+  background-color: #4e3487;
+
+}
+
+.industries-block-title-white {
+  color: #ffffff !important;
+}
 .industries-block:hover .industries-block-title {
   color: #4e3487;
   animation: fadeIn 1s;
@@ -711,6 +717,10 @@ body {
 .block-arrow {
   margin-top: auto;
   font-size: xx-large;
+}
+
+.block-arrow > .white-arrow {
+  color: #ffffff;
 }
 
 .icon-calendar {

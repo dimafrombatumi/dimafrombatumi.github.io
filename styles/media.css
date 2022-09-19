@@ -450,6 +450,12 @@
 }
 
 @media (max-width: 500px) {
+  .vacancy-block {
+    width: 100%;
+    padding: 40px;
+    box-shadow: 0px 0px 80px rgb(0 0 0 / 20%);
+    border-radius: 10px;
+  }
   .h3-title {
     font-size: 20px;
   }
@@ -611,13 +617,6 @@
   .new-vacancies-wrap {
     flex-direction: column;
     width: 100%;
-  }
-
-  .vacancy-block {
-    width: 100%;
-    padding: 40px;
-    box-shadow: 0px 0px 80px rgb(0 0 0 / 20%);
-    border-radius: 10px;
   }
 
   .vacancy-title {
