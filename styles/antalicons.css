@@ -1,20 +1,19 @@
 @font-face {
   font-family: "icomoon";
-  src: url("../iconfonts/fonts/icomoon.eot?phct1r");
-  src: url("../iconfonts/fonts/icomoon.eot?phct1r#iefix")
+  src: url("../iconfonts/fonts/icomoon.eot?jgy9tr");
+  src: url("../iconfonts/fonts/icomoon.eot?jgy9tr#iefix")
       format("embedded-opentype"),
-    url("../iconfonts/fonts/icomoon.ttf?phct1r") format("truetype"),
-    url("../iconfonts/fonts/icomoon.woff?phct1r") format("woff"),
-    url("../iconfonts/fonts/icomoon.svg?phct1r#icomoon") format("svg");
+    url("../iconfonts/fonts/icomoon.ttf?jgy9tr") format("truetype"),
+    url("../iconfonts/fonts/icomoon.woff?jgy9tr") format("woff"),
+    url("../iconfonts/fonts/icomoon.svg?jgy9tr#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^="icon-"],
-[class*=" icon-"] {
+[class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: "icomoon" !important;
+  font-family: 'icomoon' !important;
   speak: never;
   font-style: normal;
   font-weight: normal;
@@ -27,6 +26,13 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-check:before {
+  content: "\e97c";
+}
+.icon-bullet:before {
+  content: "\e97b";
+  color: #4e3487;
+}
 .icon-menu-arr:before {
   content: "\e934";
 }
