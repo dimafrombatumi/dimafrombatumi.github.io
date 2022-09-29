@@ -1555,3 +1555,37 @@ body {
   line-height: 38px;
   color: #f6f6f6;
 }
+
+/*FAQ*/
+
+.faq {
+  margin: 60px 0;
+}
+
+.faq-block {
+}
+
+.faq-item {
+  display: flex;
+  align-items: center;
+  padding: 30px 80px 30px 20px;
+  margin-top: 20px;
+  background: #f6f6f6;
+  box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  justify-content: space-between;
+}
+
+.faq-item-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #272727;
+  width: 90%;
+}
+
+.faq-arrow {
+  font-size: 40px;
+  transform: rotate(90deg);
+  width: 10%;
+}
