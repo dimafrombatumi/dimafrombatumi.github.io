@@ -179,6 +179,10 @@
   .find-vacancies-wrap {
     gap: 40px;
   }
+
+  .sidebar-part {
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {
@@ -608,6 +612,8 @@
 }
 
 @media (max-width: 390px) {
+  /*HOME PAGE*/
+
   .logo-col {
     margin-right: 36px;
   }
@@ -626,6 +632,27 @@
   .vacancy-title {
     font-size: 20px;
   }
+  /*HOME PAGE*/
+
+  /*SERVICES*/
+  .text-paragraf {
+    width: 90%;
+  }
+  .text-par-second {
+    flex-direction: column;
+  }
+
+  .text-par-second img {
+    width: 100%;
+  }
+
+  .other-serv-blocks {
+    flex-direction: column;
+  }
+  .other-serv-block {
+    width: 100%;
+  }
+  /*SERVICES*/
 }
 
 @media (max-width: 280px) {

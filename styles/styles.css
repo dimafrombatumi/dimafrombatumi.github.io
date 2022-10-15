@@ -1692,6 +1692,7 @@ body {
 
 .sidebar-part {
   display: flex;
+  position: sticky;
   flex-direction: column;
   align-items: flex-start;
   padding: 40px;
